@@ -1,0 +1,92 @@
+* {
+  font-size: 1.25rem;
+  border: none;
+}
+html,
+body {
+  height: 100%;
+  background-color: #282c34;
+}
+
+.container {
+  min-height: 100%;
+}
+
+.main {
+  overflow: auto;
+  padding-bottom: 25px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+Header {
+  display: flex;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Poppins";
+  position: center;
+  color: white;
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+.header-store {
+  margin-right: auto;
+  border: none;
+  color: white;
+  background-color: #282c34;
+}
+
+.header-about {
+  border: none;
+  color: white;
+  background-color: #282c34;
+}
+
+.header-floomail {
+  border: none;
+  color: white;
+  background-color: #282c34;
+}
+
+.header-images {
+  border: none;
+  color: white;
+  background-color: #282c34;
+}
+
+.User-profile-image {
+  border-radius: 45%;
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+.search-box {
+  border: none;
+  outline: none;
+  margin: 0 1rem 0 1rem;
+  width: 100%;
+  border-radius: 20px;
+}
+.footer {
+  background-color: #707793;
+  position: relative;
+  height: 45px;
+  margin-top: -50px;
+  clear: both;
+}
+.footer-advertising {
+  background-color: #707793;
+}
+.SMTM {
+  border-radius: 5px;
+  position: center;
+}
+.flooble-search {
+  border-radius: 5px;
+}
