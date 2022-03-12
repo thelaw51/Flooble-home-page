@@ -45,6 +45,17 @@ h1 {
   color: #3bb99b;
 }
 
+.header-about {
+  border: none;
+  color: white;
+  background-color: #282c34;
+}
+
+.header-about:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
+}
+
 .header-store {
   margin-right: auto;
   border: none;
@@ -52,10 +63,9 @@ h1 {
   background-color: #282c34;
 }
 
-.header-about {
-  border: none;
-  color: white;
-  background-color: #282c34;
+.header-store:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
 }
 
 .header-floomail {
@@ -64,10 +74,20 @@ h1 {
   background-color: #282c34;
 }
 
+.header-floomail:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
+}
+
 .header-images {
   border: none;
   color: white;
   background-color: #282c34;
+}
+
+.header-images:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
 }
 
 .User-profile-image {
@@ -75,12 +95,61 @@ h1 {
 }
 
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5.5%;
   background-color: #707793;
-  position: relative;
-  height: 45px;
-  margin-top: -50px;
-  clear: both;
+  display: flex;
+  align-items: center;
 }
+.footer-business {
+  background-color: #707793;
+  outline: none;
+  border: none;
+  color: white;
+  height: 100%;
+}
+.footer-business:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
+}
+.footer-privacy {
+  background-color: #707793;
+  outline: none;
+  border: none;
+  color: white;
+  margin-right: auto;
+  height: 100%;
+}
+.footer-privacy:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
+}
+.footer-terms {
+  background-color: #707793;
+  outline: none;
+  border: none;
+  color: white;
+  height: 100%;
+}
+.footer-terms:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
+}
+.footer-settings {
+  background-color: #707793;
+  outline: none;
+  border: none;
+  color: white;
+  height: 100%;
+}
+.footer-settings:hover {
+  filter: brightness(80%);
+  transition-duration: 0.25s;
+}
+
 .SMTM {
   border-radius: 5px;
   color: #707070;
@@ -89,6 +158,10 @@ h1 {
   padding-left: 26px;
   padding-right: 25px;
   margin: 24px;
+  width: 258px;
+  height: 72px;
+  outline: none;
+  border: none;
 }
 .flooble-search {
   border-radius: 5px;
@@ -98,6 +171,10 @@ h1 {
   padding-bottom: 23px;
   padding-left: 56px;
   padding-right: 54px;
+  width: 258;
+  height: 72px;
+  border: none;
+  outline: none;
 }
 
 .button-wrapper {
@@ -109,23 +186,45 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 330px;
+  width: 851px;
+  height: 66px;
   background-color: white;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 37px;
 }
 
 .search-box {
   border: none;
   outline: none;
   margin: 0 1rem 0 1rem;
-  border-radius: 20px;
+  width: 851px;
+  font-size: 1.5rem;
 }
 
 #search-icon {
   margin-left: 10px;
+  color: #707070;
 }
 
 #mic-icon {
   margin-right: 10px;
+  color: #707070;
+}
+
+.flooble-search:hover {
+  filter: brightness(90%);
+  transition-duration: 0.25s;
+}
+.flooble-search:active {
+  filter: brightness(80%);
+  transition-duration: 0.025s;
+}
+
+.SMTM:hover {
+  filter: brightness(90%);
+  transition-duration: 0.25s;
+}
+.SMTM:active {
+  filter: brightness(80%);
+  transition-duration: 0.025s;
 }
