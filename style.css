@@ -1,11 +1,13 @@
 * {
-  font-size: 1.25rem;
-  border: none;
+  font-size: 1.1rem;
+  margin: none;
+  padding: none;
 }
 html,
 body {
   height: 100%;
   background-color: #282c34;
+  font-family: Arial, Helvetica, sans-serif, serif;
 }
 
 .container {
@@ -18,8 +20,8 @@ body {
 }
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 Header {
@@ -32,6 +34,15 @@ h1 {
   color: white;
   text-align: center;
   letter-spacing: 30px;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-title-letters {
+  color: #3bb99b;
 }
 
 .header-store {
@@ -62,17 +73,7 @@ h1 {
 .User-profile-image {
   border-radius: 45%;
 }
-.input-wrapper {
-  display: flex;
-  align-items: center;
-}
-.search-box {
-  border: none;
-  outline: none;
-  margin: 0 1rem 0 1rem;
-  width: 100%;
-  border-radius: 20px;
-}
+
 .footer {
   background-color: #707793;
   position: relative;
@@ -80,13 +81,51 @@ h1 {
   margin-top: -50px;
   clear: both;
 }
-.footer-advertising {
-  background-color: #707793;
-}
 .SMTM {
   border-radius: 5px;
-  position: center;
+  color: #707070;
+  padding-top: 24px;
+  padding-bottom: 23px;
+  padding-left: 26px;
+  padding-right: 25px;
+  margin: 24px;
 }
 .flooble-search {
   border-radius: 5px;
+  color: #707070;
+  margin: 24px;
+  padding-top: 24px;
+  padding-bottom: 23px;
+  padding-left: 56px;
+  padding-right: 54px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.search-box {
+  border: none;
+  outline: none;
+  margin: 0 1rem 0 1rem;
+  border-radius: 20px;
+}
+
+#search-icon {
+  margin-left: 10px;
+}
+
+#mic-icon {
+  margin-right: 10px;
 }
