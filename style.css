@@ -171,7 +171,7 @@ h1 {
   padding-bottom: 23px;
   padding-left: 56px;
   padding-right: 54px;
-  width: 258;
+  width: 258px;
   height: 72px;
   border: none;
   outline: none;
@@ -227,4 +227,83 @@ h1 {
 .SMTM:active {
   filter: brightness(80%);
   transition-duration: 0.025s;
+}
+
+@media only screen and (width: 1024px) {
+  .button-wrapper {
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .input-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title-wrapper {
+    margin-top: 330px;
+  }
+}
+@media only screen and (width: 1366px) {
+  .button-wrapper {
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .input-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title-wrapper {
+    margin-top: 200px;
+  }
+}
+@media only screen and (width: 375px) {
+  .input-wrapper {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .button-wrapper {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  #mic-icon {
+    display: none;
+  }
+  #search-icon {
+    margin-left: 20px;
+  }
+  .search-box {
+    width: 100%;
+  }
+  .title-wrapper h1 {
+    font-size: 2rem;
+    margin-top: 200px;
+  }
+  .SMTM {
+  }
 }
